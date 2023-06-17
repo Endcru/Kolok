@@ -1,0 +1,20 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /api/Kolok
+
+spring:
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+
+logging:
+  level:
+    root: info
+    org.springframework.web: info
+    Kolok: debug
+
+jwt:
+  secret:
+    access: 5eWdX9fcAGsllA99p+Jn4SznviGX9tVBIexT0HFlitrMQ/lumVeyYLtR1AOZymwD2kyDhWG+zaCesw0sW7182A==
+    refresh: RAWA1XyvSrDsg1rtStQRTfl9PBhxWjviijW9SG+LTV8yMGIlcXWQK7BJY7hVW0oObQt0mKUTXxUuG4TbkJSFzA==
